@@ -1,10 +1,15 @@
 import pandas as pd
 from sklearn.linear_model import LinearRegression
 import matplotlib.pyplot as plt
-data = pd.read_csv("cars.csv", header=None)
+data1= pd.read_csv("cars.csv")
 
-trimedData = data[:20]
-print(trimedData)
+print(data1.describe())
+
+
+
+
+# trimedData = data[:20]
+# print(trimedData)
 
 # cars1T = data[:-20]
 # cars2T = data[-20:]
